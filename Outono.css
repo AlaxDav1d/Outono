@@ -1,0 +1,36 @@
+*{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}
+header{
+		background-color: bisque;
+		width: 100%;
+	}
+h1{
+        padding: 30px;
+    	color: rgb(180, 38, 6);
+    }
+p{
+		width: 800px;
+		color: #000;
+		font-size: xx-large;
+	}
+.imagem{
+    background-image: url("https://cdn.pixabay.com/photo/2018/02/27/23/03/autumn-3186876_960_720.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 87%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.conteudo{
+    background-color: #f49d3290;
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+    padding: 30px;
+}
