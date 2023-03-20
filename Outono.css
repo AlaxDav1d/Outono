@@ -2,13 +2,19 @@
 		margin: 0;
 		padding: 0;
 		box-sizing: border-box;
+        max-width: 1912px;
 	}
 header{
 		background-color: bisque;
 		width: 100%;
+        height: 90px;
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;  
 	}
 h1{
         padding: 30px;
+        margin-right: 1100px;
     	color: rgb(180, 38, 6);
     }
 p{
@@ -16,6 +22,47 @@ p{
 		color: #000;
 		font-size: xx-large;
 	}
+nav{
+    padding-right:200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 8px;
+    width: 100px;
+    height: 200px;    
+}
+a{
+    text-decoration-style: dotted;
+    color: rgb(180, 38, 6);
+    font-size: 30px;
+    width: 400px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 228, 196, 0.653);
+    position: relative;
+    overflow: hidden;
+}
+a:hover{
+    background-color: aliceblue;
+    color: #000;
+    transition: 900ms;
+    overflow: hidden;
+}
+
+button{
+    cursor: pointer;
+    background-color: bisque;
+    width: 20px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    padding: 30px;
+    margin-left: 120px;
+}
+
 .imagem{
     background-image: url("https://cdn.pixabay.com/photo/2018/02/27/23/03/autumn-3186876_960_720.jpg");
     background-repeat: no-repeat;
@@ -23,14 +70,25 @@ p{
     height: 87%;
     width: 100%;
     display: flex;
-    align-items: center;
     justify-content: center;
-    overflow: hidden;
+    align-items: center;
 }
 .conteudo{
     background-color: #f49d3290;
-    display: flex;
     justify-content: center;
-    width: 1200px;
+    width: 1900px;
     padding: 30px;
+    display: flex;
+}
+.nav1{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+}
+
+input[type="checkbox"]{
+    background-color: aqua;
+    width: 100px;
+    height: 200px;
+    cursor: pointer;
 }
